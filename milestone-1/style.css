@@ -1,0 +1,199 @@
+/* General Styling
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c1e8ff;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  rgb(67, 166, 202);
+}
+
+/* Left Section Styling */
+/* .left-section {
+    background-color: #f7a5a5;;
+    color: rgb(41, 35, 35);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #746f71;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 4rem;
+    border: 5px solid #706c6c;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: #c1e8ff;
+    text-decoration-color: #7e7a7c;
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    background-color: #ffa7a7;
+    font-style: inherit;
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(104, 104, 104);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #a0f1fc;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 15px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+/* .right-section {
+    background-color: rgb(172, 168, 168);
+    padding: 20px;
+    width: 70%;
+}
+
+button {
+    background-color: rgb(247, 145, 192);
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(156, 245, 252);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c; */
+/* }  */ 
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f9f9; /* Off-white background */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #9ed9d9; /* Teal shadow */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #008080; /* Teal */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #ff6f61; /* Coral border */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 4rem;
+    border: 5px solid #ff6f61; /* Coral border around profile */
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: #008080; /* Teal */
+    text-decoration-color: #ff6f61; /* Coral underline */
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff; /* White text */
+}
+
+h3 {
+    background-color: #ff6f61; /* Coral */
+    font-style: inherit;
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #ffffff; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #9ed9d9; /* Teal shadow */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 15px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #008080; /* Teal text for list items */
+}
+
+/* Right Section Styling */
+.right-section {
+    background-color: #e0f7fa; /* Light teal */
+    padding: 20px;
+    width: 70%;
+    color: #008080; /* Teal text */
+}
+
+button {
+    background-color: #ff6f61; /* Coral button */
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #9ed9d9; /* Teal shadow */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff; /* White text on the button */
+}
+
+button:hover {
+    background-color: #ff4b47; /* Darker coral for hover */
+}
+
+/* Career Objective Section */
+.career-objective h3, .career-objective p {
+    color: #ff6f61; /* Coral text for career objective section */
+}
+
+.career-objective p {
+    color: #008080; /* Teal for paragraph text */
+}
+
+/* Certifications Section */
+.certifications h3, .certifications ul li {
+    color: #ff6f61; /* Coral text for certifications */
+}
+
+
+
