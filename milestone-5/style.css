@@ -1,0 +1,140 @@
+/* General styling for body */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #004d40; 
+    color: #e0f2f1; 
+}
+
+/* Form styling */
+form {
+    margin: auto;
+    background-color: #00796b;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px;
+    border: 2px solid #ff7043;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #ff7043; 
+    font-size: 32px;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff7043; 
+    margin-bottom: 15px;
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin-top: 15px;
+    color: #b2dfdb; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input, textarea {
+    margin-top: 6px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #b2dfdb; 
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #004d40; 
+    color: #e0f2f1; 
+    transition: border-color 0.3s ease;
+}
+
+/* Focus state for inputs */
+input:focus, textarea:focus {
+    border-color: #00bfae; 
+    outline: none;
+}
+
+/* Button styling */
+button {
+    display: block;
+    width: 100%;
+    background-color: #ff7043; 
+    color: #004d40; 
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #e64a19; 
+    transform: translateY(-3px);
+}
+
+/* Styling for resume display */
+#resume-display {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #00796b; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ff7043; 
+}
+
+/* Heading inside resume */
+#resume-display h2 {
+    color: #ff7043; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00bfae; 
+    padding-bottom: 10px;
+}
+
+/* Paragraphs inside resume */
+#resume-display p {
+    color: #b2dfdb; 
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    form, #resume-display {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    #resume-display h2 {
+        font-size: 20px;
+    }
+}
